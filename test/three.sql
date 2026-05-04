@@ -1,18 +1,3 @@
-INSERT INTO ads.ads_secu_finmgt_share_change (
-        data_id,
-        task_id,
-        publish_date,
-        start_date,
-        stat_period,
-        end_date,
-        secu_finmgt_code,
-        info_source,
-        final_share,
-        final_share_merge,
-        init_share,
-        cur_purchase,
-        cur_redeem
-        )
 WITH parsed_base AS (
         SELECT
                 t1.task_id,
