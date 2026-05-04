@@ -157,7 +157,7 @@ FROM (
                  ELSE 3
                  END AS share_type
          FROM parsed_base pb
-          LEFT JOIN (
+                  LEFT JOIN (
              SELECT
                  INBBM as secu_finmgt_code,
                  CPDM
